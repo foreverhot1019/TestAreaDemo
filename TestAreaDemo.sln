@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAreaDemo", "TestAreaDemo\TestAreaDemo.csproj", "{F9258C27-BA4A-45E6-8714-23957CD589D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisHelp", "RedisHelp\RedisHelp.csproj", "{0D3F0209-D26E-448F-89B3-2737244248DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLDALHelper", "SQLDAL\SQLDALHelper.csproj", "{127E1465-C853-4F72-8855-BF4EC8184D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAreaDemo.Areas.Movie", "TestAreaDemo.Movie\TestAreaDemo.Areas.Movie.csproj", "{134C685F-7AEA-412C-924B-D95AB9FC3E18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonLanguage", "Language\CommonLanguage.csproj", "{6313FF2D-6180-42C8-BC7B-23274EBF722C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseService", "BaseService\BaseService.csproj", "{2E203AB0-348B-4D83-B1B8-DEFA6BA71159}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContext", "DataContext\DataContext.csproj", "{B3B53EC5-36ED-41E5-A5A7-24E38E5BBD96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRedisSerializer", "MyRedisSerializer\MyRedisSerializer.csproj", "{DA6A1D6E-02C1-4D64-8783-05B70EDACEAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9258C27-BA4A-45E6-8714-23957CD589D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9258C27-BA4A-45E6-8714-23957CD589D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9258C27-BA4A-45E6-8714-23957CD589D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9258C27-BA4A-45E6-8714-23957CD589D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D3F0209-D26E-448F-89B3-2737244248DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D3F0209-D26E-448F-89B3-2737244248DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D3F0209-D26E-448F-89B3-2737244248DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D3F0209-D26E-448F-89B3-2737244248DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{127E1465-C853-4F72-8855-BF4EC8184D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127E1465-C853-4F72-8855-BF4EC8184D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127E1465-C853-4F72-8855-BF4EC8184D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127E1465-C853-4F72-8855-BF4EC8184D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134C685F-7AEA-412C-924B-D95AB9FC3E18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134C685F-7AEA-412C-924B-D95AB9FC3E18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134C685F-7AEA-412C-924B-D95AB9FC3E18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134C685F-7AEA-412C-924B-D95AB9FC3E18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6313FF2D-6180-42C8-BC7B-23274EBF722C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6313FF2D-6180-42C8-BC7B-23274EBF722C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6313FF2D-6180-42C8-BC7B-23274EBF722C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6313FF2D-6180-42C8-BC7B-23274EBF722C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E203AB0-348B-4D83-B1B8-DEFA6BA71159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E203AB0-348B-4D83-B1B8-DEFA6BA71159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E203AB0-348B-4D83-B1B8-DEFA6BA71159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E203AB0-348B-4D83-B1B8-DEFA6BA71159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B53EC5-36ED-41E5-A5A7-24E38E5BBD96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B53EC5-36ED-41E5-A5A7-24E38E5BBD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B53EC5-36ED-41E5-A5A7-24E38E5BBD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B53EC5-36ED-41E5-A5A7-24E38E5BBD96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6A1D6E-02C1-4D64-8783-05B70EDACEAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6A1D6E-02C1-4D64-8783-05B70EDACEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6A1D6E-02C1-4D64-8783-05B70EDACEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6A1D6E-02C1-4D64-8783-05B70EDACEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90A264B3-53E3-4AC4-91F0-89EAC9338FD3}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://172.20.60.186:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TestAreaDemo\\TestAreaDemo.csproj
+		SccProjectName1 = TestAreaDemo
+		SccLocalPath1 = TestAreaDemo
+		SccProjectUniqueName2 = RedisHelp\\RedisHelp.csproj
+		SccProjectName2 = RedisHelp
+		SccLocalPath2 = RedisHelp
+		SccProjectUniqueName3 = SQLDAL\\SQLDALHelper.csproj
+		SccProjectName3 = SQLDAL
+		SccLocalPath3 = SQLDAL
+		SccProjectUniqueName4 = TestAreaDemo.Movie\\TestAreaDemo.Areas.Movie.csproj
+		SccProjectName4 = TestAreaDemo.Movie
+		SccLocalPath4 = TestAreaDemo.Movie
+		SccProjectUniqueName5 = Language\\CommonLanguage.csproj
+		SccProjectName5 = Language
+		SccLocalPath5 = Language
+		SccProjectUniqueName6 = BaseService\\BaseService.csproj
+		SccProjectName6 = BaseService
+		SccLocalPath6 = BaseService
+		SccProjectUniqueName7 = DataContext\\DataContext.csproj
+		SccProjectName7 = DataContext
+		SccLocalPath7 = DataContext
+		SccProjectUniqueName8 = MyRedisSerializer\\MyRedisSerializer.csproj
+		SccProjectName8 = MyRedisSerializer
+		SccLocalPath8 = MyRedisSerializer
+	EndGlobalSection
+EndGlobal

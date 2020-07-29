@@ -1,0 +1,15 @@
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\EntityInfrastructure.dll.config
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\EntityInfrastructure.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\EntityInfrastructure.pdb
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\EntityFramework.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\EntityFramework.SqlServer.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\EntityFramework.xml
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\EntityFramework.SqlServer.xml
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\zh-Hant\EntityFramework.resources.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\bin\Debug\zh-Hant\EntityFramework.SqlServer.resources.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\obj\Debug\EntityInfrastructure.csproj.CoreCompileInputs.cache
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\obj\Debug\EntityInfrastructure.csproj.CopyComplete
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\obj\Debug\EntityInfrastructure.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\EntityInfrastructure\obj\Debug\EntityInfrastructure.pdb

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="RedirectAction_CannotRedirectInChildAction"><value>不允许子操作执行重定向操作。</value></data>
+  <data name="AsyncActionMethodSelector_AmbiguousMethodMatch"><value>由于在以下方法之间不明确，查找控制器类型“{1}”的方法“{0}”失败: {2}</value></data>
+  <data name="Route_InvalidRouteTemplate"><value>路由模板不能以 "/" 或 "~" 字符开头，并且不能包含 "?" 字符。</value></data>
+  <data name="TypeCache_DoNotModify"><value>此文件自动生成。请不要修改此文件的内容。</value></data>
+  <data name="JsonRequest_GetNotAllowed"><value>此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。</value></data>
+  <data name="WebFormViewEngine_WrongViewBase"><value>“{0}”处的视图必须派生自 ViewPage、ViewPage&lt;TModel&gt;、ViewUserControl 或 ViewUserControl&lt;TModel&gt;。</value></data>
+  <data name="HtmlHelper_InvalidHttpMethod"><value>不支持 GET 和 POST HTTP 方法。</value></data>
+  <data name="WebFormViewEngine_UserControlCannotHaveMaster"><value>当视图为 ViewUserControl 时不能指定母版名称。</value></data>
+  <data name="DefaultInlineConstraintResolver_AmbiguousCtors"><value>用于激活约束类型“{0}”的构造函数不明确。找到包含以下数目的参数的多个构造函数: {1}。</value></data>
+  <data name="HtmlHelper_MissingSelectData"><value>不存在具有键“{0}”的“{1}”类型的 ViewData 项。</value></data>
+  <data name="MvcRouteHandler_RouteValuesHasNoController"><value>匹配的路由不包括所需的“controller”路由值。</value></data>
+  <data name="ExpressionHelper_InvalidIndexerExpression"><value>表达式编译器无法计算索引器表达式“{0}”，因为后者引用的模型参数“{1}”不可用。</value></data>
+  <data name="Common_TypeMustDriveFromType"><value>类型 {0} 必须从 {1} 派生</value></data>
+  <data name="HtmlHelper_WrongSelectDataType"><value>具有键“{0}”的 ViewData 项属于类型“{1}”，但它必须属于类型“{2}”。</value></data>
+  <data name="SelectExtensions_InvalidExpressionParameterNoModelType"><value>无法确定表达式“{0}”的类型。</value></data>
+  <data name="ControllerBase_CannotHandleMultipleRequests"><value>不能使用控制器“{0}”的单个实例处理多个请求。如果正在使用自定义控制器工厂，请确保它为每个请求创建该控制器的新实例。</value></data>
+  <data name="CompareAttribute_UnknownProperty"><value>未能找到名为 {0} 的属性。</value></data>
+  <data name="OutputCacheAttribute_ChildAction_UnsupportedSetting"><value>子操作的 OutputCacheAttribute 仅支持 Duration、VaryByCustom 和 VaryByParam 值。请不要为子操作设置 CacheProfile、Location、NoStore、SqlDependency、VaryByContentEncoding 或 VaryByHeader 值。</value></data>
+  <data name="SessionStateTempDataProvider_SessionStateDisabled"><value>SessionStateTempDataProvider 类需要启用会话状态。</value></data>
+  <data name="DataAnnotationsModelMetadataProvider_UnknownProperty"><value>{0} 具有 {1} 的 DisplayColumn 特性，但属性 {1} 不存在。</value></data>
+  <data name="HttpRouteBuilder_CouldNotResolveConstraint"><value>类型为“{0}”的内联约束解析程序无法解析以下内联约束:“{1}”。</value></data>
+  <data name="EnumHelper_InvalidMetadataParameter"><value>ModelType 属性不能为 null。</value></data>
+  <data name="ClientDataTypeModelValidatorProvider_FieldMustBeNumeric"><value>字段 {0} 必须是一个数字。</value></data>
+  <data name="DefaultControllerFactory_NoControllerFound"><value>未找到路径“{0}”的控制器或该控制器未实现 IController。</value></data>
+  <data name="RouteTemplate_CannotStart_WithForwardSlash"><value>名为“{2}”的控制器上名为“{1}”的操作上的路由模板“{0}”不能以正斜杠开头。</value></data>
+  <data name="DefaultControllerFactory_DirectRouteAmbiguous"><value>找到了多个与 URL 匹配的控制器类型。如果多个控制器上的特性路由与请求的 URL 匹配，则可能会发生这种情况。{1}{1}请求已找到下列匹配的控制器类型: {0}</value></data>
+  <data name="DataAnnotationsModelValidatorProvider_ValidatableConstructorRequirements"><value>类型 {0} 必须具有可以接受两个 {1} 和 {2} 类型参数的公共构造函数。</value></data>
+  <data name="DefaultInlineConstraintResolver_CouldNotFindCtor"><value>找不到约束类型为“{0}”且包含以下数目的参数的构造函数: {1}。</value></data>
+  <data name="DefaultControllerFactory_TypeDoesNotSubclassControllerBase"><value>控制器类型“{0}”必须实现 IController。</value></data>
+  <data name="AsyncCommon_InvalidTimeout"><value>超时值必须是非负数或 Timeout.Infinite。</value></data>
+  <data name="Route_RepeatedParameter"><value>路由参数名称“{0}”在路由模板中出现了多次。</value></data>
+  <data name="DirectRoute_MissingActionDescriptors"><value>路由没有任何关联的操作描述符。路由要求每个直接路由都映射到一组非空操作。</value></data>
+  <data name="ViewMasterPage_RequiresViewPage"><value>ViewMasterPage 只能与派生自 ViewPage 或 ViewPage&lt;TModel&gt; 的内容页一起使用。</value></data>
+  <data name="FilterAttribute_OrderOutOfRange"><value>Order 必须大于或等于 -1。</value></data>
+  <data name="GlobalFilterCollection_UnsupportedFilterInstance"><value>给定的筛选器实例必须实现以下一个或多个筛选器接口: {0}、{1}、{2}、{3}、{4}。</value></data>
+  <data name="ViewDataDictionary_WrongTModelType"><value>传入字典的模型项的类型为“{0}”，但此字典需要类型“{1}”的模型项。</value></data>
+  <data name="ReflectedParameterBindingInfo_MultipleConverterAttributes"><value>方法“{1}”的参数“{0}”包含多个从 CustomModelBinderAttribute 继承的特性。</value></data>
+  <data name="TemplateHelpers_TemplateLimitations"><value>模板只能用于字段访问、属性访问、一维数组索引或单参数自定义索引器表达式。</value></data>
+  <data name="DirectRoute_MissingControllerType"><value>路由没有关联的控制器类型。路由要求每个直接路由都映射到单个控制器类型。</value></data>
+  <data name="DependencyResolver_DoesNotImplementICommonServiceLocator"><value>类型 {0} 似乎未实现 Microsoft.Practices.ServiceLocation.IServiceLocator。</value></data>
+  <data name="AsyncCommon_AsyncResultAlreadyConsumed"><value>已使用过提供的 IAsyncResult。</value></data>
+  <data name="Route_MismatchedParameter"><value>此路径段中存在不完整的参数:“{0}”。请检查每个 "{{" 字符是否都有匹配的 "}}" 字符。</value></data>
+  <data name="EnumHelper_InvalidParameterType"><value>不支持类型“{0}”。</value></data>
+  <data name="ReflectedActionDescriptor_ParameterNotInDictionary"><value>对于“{3}”中方法“{2}”的类型“{1}”的参数“{0}”，参数字典不包含对应的项。对于包括具有 null 值的参数在内的每个参数，字典都必须包含一项。</value></data>
+  <data name="HtmlHelper_InvalidHttpVerb"><value>不支持指定的 HttpVerbs 值。支持的值为 Delete、Head、Put、Options 和 Patch。</value></data>
+  <data name="Common_TriState_NotSet"><value>未设置</value></data>
+  <data name="EnumHelper_InvalidValueParameter"><value>无效的值参数类型“{0}”。必须与类型参数“{1}”匹配。</value></data>
+  <data name="Common_ValueNotValidForProperty"><value>值“{0}”无效。</value></data>
+  <data name="ActionMethodSelector_AmbiguousMatchType"><value>类型 {1} 的 {0}</value></data>
+  <data name="ReflectedActionDescriptor_CannotCallOpenGenericMethods"><value>不能对控制器“{1}”调用操作方法“{0}”，因为此操作方法是泛型方法。</value></data>
+  <data name="OutputCacheAttribute_InvalidDuration"><value>Duration 必须为正数。</value></data>
+  <data name="Common_PartialViewNotFound"><value>未找到分部视图“{0}”或没有视图引擎支持搜索的位置。搜索了以下位置: {1}</value></data>
+  <data name="DefaultControllerFactory_ErrorCreatingController"><value>尝试创建“{0}”类型的控制器时出错。请确保控制器具有无参数公共构造函数。</value></data>
+  <data name="CshtmlView_WrongViewBase"><value>“{0}”处的视图必须派生自 WebViewPage 或 WebViewPage&lt;TModel&gt;。</value></data>
+  <data name="OutputCacheAttribute_InvalidVaryByParam"><value>VaryByParam 必须是“*”、“none”或分号分隔的键列表。</value></data>
+  <data name="Common_ViewNotFound"><value>未找到视图“{0}”或其母版视图，或没有视图引擎支持搜索的位置。搜索了以下位置: {1}</value></data>
+  <data name="ModelBinderAttribute_TypeNotIModelBinder"><value>类型“{0}”未实现 IModelBinder 接口。</value></data>
+  <data name="DefaultControllerFactory_ControllerNameAmbiguous_WithRouteUrl"><value>找到多个与名为“{0}”的控制器匹配的类型。如果为此请求(“{1}”)提供服务的路由没有指定命名空间以搜索与此请求相匹配的控制器，则会发生这种情况。如果是这样，请通过调用带有 'namespaces' 参数的 "MapRoute" 方法的重载来注册此路由。{3}{3}“{0}”请求找到下列匹配的控制器:{2}</value></data>
+  <data name="Controller_UnknownAction_NoActionName"><value>在控制器“{0}”上找不到匹配的操作。如果控制器将 RouteAttribute 用于路由，但该控制器上没有与请求匹配的操作，则可能会发生这种情况。</value></data>
+  <data name="Route_CannotHaveCatchAllInMultiSegment"><value>包含多个节(例如文本节或参数)的路径段不能包含 catch-all 参数。</value></data>
+  <data name="ControllerBuilder_ErrorCreatingControllerFactory"><value>尝试创建 IControllerFactory“{0}”时出错。请确保控制器工厂具有公共的无参数构造函数。</value></data>
+  <data name="TypeMethodMustNotReturnNull"><value>{0}.{1} 不能返回 null。</value></data>
+  <data name="SingleServiceResolver_CannotRegisterTwoInstances"><value>在解析程序以及 {1} 的自定义注册提供程序中各找到一个 {0} 实例。请仅设置其中的一个。</value></data>
+  <data name="DefaultModelBinder_ValueInvalid"><value>值“{0}”对于 {1} 无效。</value></data>
+  <data name="ViewDataDictionary_ModelCannotBeNull"><value>传入字典的模型项为 null，但此字典需要类型“{0}”的非 null 模型项。</value></data>
+  <data name="ExceptionViewAttribute_NonExceptionType"><value>类型“{0}”未从 Exception 继承。</value></data>
+  <data name="ModelBinderDictionary_MultipleAttributes"><value>类型“{0}”包含多个从 CustomModelBinderAttribute 继承的特性。</value></data>
+  <data name="DefaultControllerFactory_ControllerNameAmbiguous_WithoutRouteUrl"><value>找到多个与名为“{0}”的控制器匹配的类型。如果为此请求提供服务的路由没有指定命名空间以搜索与此请求相匹配的控制器，则会发生这种情况。如果是这样，请通过调用带有 'namespaces' 参数的 "MapRoute" 方法的重载来注册此路由。{2}{2}“{0}”请求找到下列匹配的控制器:{1}</value></data>
+  <data name="ReflectedActionDescriptor_CannotCallMethodsWithOutOrRefParameters"><value>不能对控制器“{1}”调用操作方法“{0}”，因为参数“{2}”是通过引用传递的。</value></data>
+  <data name="CshtmlView_ViewCouldNotBeCreated"><value>未创建在“{0}”找到的视图。</value></data>
+  <data name="ValidatableObjectAdapter_IncompatibleType"><value>元数据内部的模型对象声明与 {0} 兼容，但实际与 {1} 兼容。</value></data>
+  <data name="AsyncCommon_InvalidAsyncResult"><value>提供的 IAsyncResult 对此方法无效。</value></data>
+  <data name="RoutePrefix_CannotSupportMultiRoutePrefix"><value>仅支持一个路由前缀特性。请从“{0}”类型的控制器中删除额外的特性。</value></data>
+  <data name="DirectRoute_RouteHandlerNotSupported"><value>直接路由不支持按路由路由处理程序。</value></data>
+  <data name="SelectExtensions_InvalidExpressionParameterType"><value>不支持返回类型“{0}”。</value></data>
+  <data name="MvcRazorCodeParser_ModelKeywordMustBeFollowedByTypeName"><value>“{0}”关键字必须在同一行上后跟一个类型名称。</value></data>
+  <data name="MvcRazorCodeParser_OnlyOneModelStatementIsAllowed"><value>一个文件中仅允许使用一条“{0}”语句。</value></data>
+  <data name="ControllerBase_CannotExecuteWithNullHttpContext"><value>无法执行 HttpContext 为 null 的控制器。</value></data>
+  <data name="RemoteAttribute_NoUrlFound"><value>未能找到用于远程验证的 url。</value></data>
+  <data name="SelectExtensions_InvalidExpressionParameterTypeHasFlags"><value>不支持返回类型“{0}”。类型必须具有“{1}”特性。</value></data>
+  <data name="AsyncActionDescriptor_CannotExecuteSynchronously"><value>不能同步执行异步操作方法“{0}”。</value></data>
+  <data name="DirectRoute_MissingControllerDescriptor"><value>路由没有关联的控制器描述符。路由要求每个直接路由都映射到单个控制器。</value></data>
+  <data name="SubRouteCollection_DuplicateRouteName"><value>路由集合中已存在名称为“{0}”的路由。路由名称必须唯一。
+
+重复项:
+{1}
+{2}</value></data>
+  <data name="SynchronizationContextUtil_ExceptionThrown"><value>一个跨过同步上下文的操作失败。有关更多信息，请参见内部异常。</value></data>
+  <data name="AsyncCommon_ControllerMustImplementIAsyncManagerContainer"><value>类型“{0}”的控制器必须创建 AsyncController 的子类或实现 IAsyncManagerContainer 接口。</value></data>
+  <data name="ModelBinderAttribute_ErrorCreatingModelBinder"><value>尝试创建 IModelBinder“{0}”时出错。请确保联编程序具有公共的无参数构造函数。</value></data>
+  <data name="SelectExtensions_InvalidExpressionParameterNoMetadata"><value>无法确定表达式“{0}”的 ModelMetadata。</value></data>
+  <data name="ReflectedActionDescriptor_ParameterValueHasWrongType"><value>对于“{2}”中方法“{1}”的参数“{0}”，参数字典包含无效项。字典包含一个类型“{3}”的值，但参数需要的是类型“{4}”的值。</value></data>
+  <data name="ValueProviderResult_NoConverterExists"><value>从类型“{0}”到类型“{1}”的参数转换失败，因为没有类型转换器可以在这些类型之间转换。</value></data>
+  <data name="ValueProviderResult_ConversionThrew"><value>从类型“{0}”到类型“{1}”的参数转换失败。有关更多信息，请参见内部异常。</value></data>
+  <data name="Controller_UnknownAction"><value>在控制器“{1}”上未找到公共操作方法“{0}”。</value></data>
+  <data name="Route_CannotHaveConsecutiveParameters"><value>路径段不能包含两个连续参数。必须使用 "/" 或文本字符串分隔它们。</value></data>
+  <data name="MvcForm_ConstructorObsolete"><value>此构造函数已过时，因为它的功能现已由 MvcForm(ViewContext) 实现。</value></data>
+  <data name="ClientDataTypeModelValidatorProvider_FieldMustBeDate"><value>字段 {0} 必须是日期。</value></data>
+  <data name="DirectRoute_AmbiguousMatch"><value>当前请求在下列操作方法之间不明确: {0}</value></data>
+  <data name="ReflectedActionDescriptor_CannotCallStaticMethod"><value>无法对控制器“{1}”调用操作方法“{0}”，因为该操作方法为静态方法。</value></data>
+  <data name="RouteAreaPrefix_CannotEnd_WithForwardSlash"><value>名为“{2}”的控制器上名为“{1}”的路由区域的前缀“{0}”不能以正斜杠结尾。</value></data>
+  <data name="Common_TriState_True"><value>True</value></data>
+  <data name="DefaultViewLocationCache_NegativeTimeSpan"><value>TimeSpan 值的记号数必须大于或等于 0。</value></data>
+  <data name="ViewUserControl_RequiresViewPage"><value>ViewUserControl 只能在派生自 ViewPage 或 ViewPage&lt;TModel&gt; 的页中使用。</value></data>
+  <data name="ReflectedActionDescriptor_CannotCallInstanceMethodOnNonControllerType"><value>不能为类型“{1}”的实例方法“{0}”创建描述符，因为该类型不是从 ControllerBase 派生的。</value></data>
+  <data name="Controller_UpdateModel_UpdateUnsuccessful"><value>未能更新类型“{0}”的模型。</value></data>
+  <data name="HtmlHelper_SelectExpressionNotEnumerable"><value>在允许多重选择时，参数“{0}”必须等于某个 IEnumerable。</value></data>
+  <data name="ControllerBuilder_MissingIControllerFactory"><value>控制器工厂类型“{0}”必须实现 IControllerFactory 接口。</value></data>
+  <data name="Route_CannotHaveConsecutiveSeparators"><value>路由模板分隔符 "/" 不能连续出现。必须使用参数或文本值分隔它。</value></data>
+  <data name="DefaultModelBinder_ValueRequired"><value>值是必需的。</value></data>
+  <data name="HtmlHelper_TextAreaParameterOutOfRange"><value>值必须大于或等于零。</value></data>
+  <data name="Common_PropertyNotFound"><value>未能找到属性 {0}.{1}。</value></data>
+  <data name="Common_NullOrEmpty"><value>值不能为 null 或为空。</value></data>
+  <data name="TypeHelpers_CannotCreateInstance"><value>{0} 对象类型“{1}”。</value></data>
+  <data name="Common_TriState_False"><value>False</value></data>
+  <data name="ActionMethodSelector_AmbiguousMatch"><value>对控制器类型“{1}”的操作“{0}”的当前请求在下列操作方法之间不明确: {2}</value></data>
+  <data name="ViewUserControl_RequiresViewDataProvider"><value>ViewUserControl“{0}”找不到 IViewDataContainer 对象。ViewUserControl 必须位于 ViewPage、ViewMasterPage 或另一个 ViewUserControl 中。</value></data>
+  <data name="TemplateHelpers_NoTemplate"><value>无法找到类型 {0} 的适当模板。</value></data>
+  <data name="Controller_Validate_ValidationFailed"><value>类型为“{0}”的模型无效。</value></data>
+  <data name="AuthorizeAttribute_CannotUseWithinChildActionCache"><value>AuthorizeAttribute 不能在子操作缓存块中使用。</value></data>
+  <data name="DataAnnotationsModelValidatorProvider_ConstructorRequirements"><value>类型 {0} 必须有接受类型 {1}、{2} 和 {3} 的三个参数的公共构造函数。</value></data>
+  <data name="RemoteAttribute_RemoteValidationFailed"><value>“{0}”无效。</value></data>
+  <data name="MvcRazorCodeParser_CannotHaveModelAndInheritsKeyword"><value>当使用“{0}”关键字时不允许使用“inherits”关键字。</value></data>
+  <data name="ChildActionOnlyAttribute_MustBeInChildRequest"><value>操作“{0}”只能由子请求访问。</value></data>
+  <data name="DirectRoute_InvalidParameter_Action"><value>操作方法的直接路由不能使用参数 "action"。若要为操作创建路由，请指定文字路径来代替此参数。</value></data>
+  <data name="AsyncActionMethodSelector_CouldNotFindMethod"><value>未能在控制器类型 {1} 上找到名为“{0}”的方法。</value></data>
+  <data name="DataAnnotationsModelMetadataProvider_UnreadableProperty"><value>{0} 具有 {1} 的 DisplayColumn 特性，但属性 {1} 没有公共 getter。</value></data>
+  <data name="OutputCacheAttribute_CannotNestChildCache"><value>不允许对已缓存的子操作的子操作使用 OutputCacheAttribute。</value></data>
+  <data name="Route_CatchAllMustBeLast"><value>catch-all 参数只能作为路由模板的最后一个段出现。</value></data>
+  <data name="ViewPageHttpHandlerWrapper_ExceptionOccurred"><value>子请求执行失败。有关更多信息，请检查 InnerException。</value></data>
+  <data name="AttributeRouting_CouldNotInferAreaNameFromMissingNamespace"><value>无法推断控制器“{0}”的区域名称，因为它没有命名空间。</value></data>
+  <data name="CompareAttribute_MustMatch"><value>“{0}”和“{1}”不匹配。</value></data>
+  <data name="Common_PropertyCannotBeNullOrEmpty"><value>属性“{0}”不能为 null 或为空。</value></data>
+  <data name="Route_InvalidParameterName"><value>路由参数名称“{0}”无效。路由参数名称必须非空，并且不能包含以下字符: "{{","}}"、"/"、"?"</value></data>
+  <data name="DefaultInlineConstraintResolver_TypeNotConstraint"><value>映射到约束键“{1}”的约束类型“{0}”必须实现 IRouteConstraint 接口。</value></data>
+  <data name="Common_NoRouteMatched"><value>路由表中没有与提供的值匹配的路由。</value></data>
+  <data name="TaskAsyncActionDescriptor_CannotExecuteSynchronously"><value>异步操作方法“{0}”返回了一个无法同步执行的 Task。</value></data>
+  <data name="RoutePrefix_CannotStartOrEnd_WithForwardSlash"><value>名为“{1}”的控制器上的路由前缀“{0}”不能以正斜杠开头或结尾。</value></data>
+  <data name="ArgumentMustBeGreaterThanOrEqualTo"><value>值必须大于或等于 {0}。</value></data>
+  <data name="JQuerySyntaxMissingClosingBracket"><value>该键不符合 JQuery 语法，因为它缺少右括号。</value></data>
+  <data name="RoutePrefix_PrefixCannotBeNull"><value>“{0}”类型的控制器上的路由前缀特性中的属性 "prefix" 不能为 null。</value></data>
+  <data name="Route_InvalidConstraint"><value>带有路由模板“{1}”的路由上的约束项“{0}”必须包含字符串值或属于实现“{2}”的类型。</value></data>
+  <data name="ModelMetadata_PropertyNotSettable"><value>此属性 setter 已过时，因为其值现在是从 ModelMetadata.Model 派生的。</value></data>
+  <data name="ReflectedActionDescriptor_ParameterCannotBeNull"><value>对于“{3}”中方法“{2}”的不可以为 null 的类型“{1}”的参数“{0}”，参数字典包含一个 null 项。可选参数必须为引用类型、可以为 null 的类型或声明为可选参数。</value></data>
+  <data name="DirectRoute_InvalidParameter_Controller"><value>直接路由不能使用参数 "controller"。若要为控制器创建路由，请指定文字路径来代替此参数。</value></data>
+  <data name="ViewStartPage_RequiresMvcRazorView"><value>ViewStartPage 只能与派生自 WebViewPage 或其他 ViewStartPage 的页一起使用。</value></data>
+  <data name="RequireHttpsAttribute_MustUseSsl"><value>只能通过 SSL 访问请求的资源。</value></data>
+  <data name="ControllerBuilder_FactoryReturnedNull"><value>IControllerFactory“{0}”未对名称“{1}”返回控制器。</value></data>
+  <data name="Templates_TypeMustImplementIEnumerable"><value>与 Collection 模板一起使用的“{0}”类型的对象未实现 System.IEnumerable。</value></data>
+  <data name="JsonValueProviderFactory_RequestTooLarge"><value>JSON 请求太大，无法反序列化。</value></data>
+  </root>

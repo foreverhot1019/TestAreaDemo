@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AjaxLang>
+  <zh_cn>
+    <ErrMsg>
+      <Err000>未知错误</Err000>
+      <Err001>获取数据错误</Err001>
+      <Err002>保存出错</Err002>
+      <Err003>查询出错</Err003>
+    </ErrMsg>
+  </zh_cn>
+  <zh_tw>
+    <ErrMsg>
+      <Err000>未知錯誤</Err000>
+      <Err001>獲取數據錯誤</Err001>
+      <Err002>保存出錯</Err002>
+      <Err003>查詢出錯</Err003>
+    </ErrMsg>
+  </zh_tw>
+  <en_us>
+    <ErrMsg>
+      <Err000>Unkonw Error</Err000>
+      <Err001>Get Data Error</Err001>
+      <Err002>Save Data Error</Err002>
+      <Err003>Query Data Error</Err003>
+    </ErrMsg>
+  </en_us>
+</AjaxLang>

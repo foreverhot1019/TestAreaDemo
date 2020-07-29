@@ -1,0 +1,13 @@
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\bin\Release\RedisHelp.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\bin\Release\RedisHelp.pdb
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\bin\Release\log4net.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\bin\Release\Newtonsoft.Json.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\bin\Release\StackExchange.Redis.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\bin\Release\log4net.xml
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\bin\Release\Newtonsoft.Json.xml
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\bin\Release\StackExchange.Redis.xml
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\obj\Release\Interop.ActiveDs.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\obj\Release\Interop.IISOle.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\obj\Release\RedisHelp.csproj.ResolveComReference.cache
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\obj\Release\RedisHelp.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\RedisHelp\obj\Release\RedisHelp.pdb

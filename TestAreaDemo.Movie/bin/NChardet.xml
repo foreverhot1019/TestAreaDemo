@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NChardet</name>
+    </assembly>
+    <members>
+        <member name="T:NChardet.ByteExtensions">
+            <summary>
+            byte 的扩展方法
+            </summary>
+        </member>
+        <member name="M:NChardet.ByteExtensions.GetString(System.Byte[])">
+            <summary>
+            根据自动检测到的编码获取字符串
+            </summary>
+            <param name="byteArray"></param>
+            <returns></returns>
+            <exception cref="T:System.NullReferenceException">字节数组不能为 null</exception>
+            <exception cref="T:System.ArgumentException">不支持的编码</exception>
+            <exception cref="T:System.Text.DecoderFallbackException">
+            发生回退（请参见了解编码以获得完整的解释） 
+            - 并且 - 
+            System.Text.Encoding.DecoderFallback 被设置为 System.Text.DecoderExceptionFallback
+            </exception>
+            <exception cref="T:NChardet.DetectingException">检测失败</exception>
+        </member>
+        <member name="M:NChardet.ByteExtensions.GetEncoding(System.Byte[])">
+            <summary>
+            自动检测编码
+            </summary>
+            <param name="byteArray"></param>
+            <returns></returns>
+            <exception cref="T:System.NullReferenceException">字节数组不能为 null</exception>
+            <exception cref="T:System.ArgumentException">不支持的编码</exception>
+            <exception cref="T:NChardet.DetectingException">检测失败</exception>
+        </member>
+        <member name="T:NChardet.ICharsetDetector">
+            <summary>
+            Description of ICharsetDetector.
+            </summary>
+        </member>
+        <member name="T:NChardet.Verifier">
+            <summary>
+            Description of Verifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.GB2312Verifier">
+            <summary>
+            Description of GB2312Verifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.UTF8Verifier">
+            <summary>
+            Description of UTF8Verifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.UCS2LEVerifier">
+            <summary>
+            Description of UCS2LEVerifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.UCS2BEVerifier">
+            <summary>
+            Description of UCS2BEVerifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.SJISVerifier">
+            <summary>
+            Description of SJISVerifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.ISO2022KRVerifier">
+            <summary>
+            Description of ISO2022KRVerifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.ISO2022JPVerifier">
+            <summary>
+            Description of ISO2022JPVerifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.ICharsetDetectionObserver">
+            <summary>
+            Description of ICharsetDetectionObserver.
+            </summary>
+        </member>
+        <member name="T:NChardet.BIG5Verifier">
+            <summary>
+            Description of BIG5Verifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.ISO2022CNVerifier">
+            <summary>
+            Description of ISO2022CNVerifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.HZVerifier">
+            <summary>
+            Description of HZVerifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.GB18030Verifier">
+            <summary>
+            Description of GB18030Verifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.EUCTWVerifier">
+            <summary>
+            Description of EUCTWVerifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.EUCKRVerifier">
+            <summary>
+            Description of EUCKRVerifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.EUCJPVerifier">
+            <summary>
+            Description of EUCJPVerifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.CP1252Verifier">
+            <summary>
+            Description of CP1252Verifier.
+            </summary>
+        </member>
+        <member name="T:NChardet.EUCStatistics">
+            <summary>
+            Description of EUCStatistics.
+            </summary>
+        </member>
+        <member name="T:NChardet.EUCSampler">
+            <summary>
+            Description of EUCSampler.
+            </summary>
+        </member>
+        <member name="T:NChardet.PSMDetector">
+            <summary>
+            Description of PSMDetector.
+            </summary>
+        </member>
+        <member name="T:NChardet.Detector">
+            <summary>
+            Description of Detector.
+            </summary>
+        </member>
+        <member name="T:NChardet.EUCJPStatistics">
+            <summary>
+            Description of EUCJPStatistics.
+            </summary>
+        </member>
+        <member name="T:NChardet.Big5Statistics">
+            <summary>
+            Description of Big5Statistics.
+            </summary>
+        </member>
+        <member name="T:NChardet.EUCKRStatistics">
+            <summary>
+            Description of EUCKRStatistics.
+            </summary>
+        </member>
+        <member name="T:NChardet.EUCTWStatistics">
+            <summary>
+            Description of EUCTWStatistics.
+            </summary>
+        </member>
+        <member name="T:NChardet.GB2312Statistics">
+            <summary>
+            Description of GB2312Statistics.
+            </summary>
+        </member>
+    </members>
+</doc>

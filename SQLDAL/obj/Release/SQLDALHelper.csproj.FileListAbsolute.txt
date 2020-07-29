@@ -1,0 +1,6 @@
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\SQLDAL\bin\Release\SQLDAL.dll.config
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\SQLDAL\bin\Release\SQLDAL.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\SQLDAL\bin\Release\SQLDAL.pdb
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\SQLDAL\bin\Release\Oracle.ManagedDataAccess.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\SQLDAL\obj\Release\SQLDAL.dll
+E:\项目\LocalTfs_60_186\TestArea\SourceCode\TestAreaDemo\SQLDAL\obj\Release\SQLDAL.pdb
